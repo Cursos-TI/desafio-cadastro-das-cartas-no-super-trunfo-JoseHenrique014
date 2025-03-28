@@ -1,28 +1,25 @@
 #include <stdio.h>
 
 int main(){
-    printf("desafio das cartas\n");
-
     char estado = 'A';
-    char código[10] = "A01";
+    char codigo[10] = "A01";
     char cidade[10] = "Belém";
-    int população = 1303403;
-    float área = 1059.47;
-    float PIB = 21191.47;
-    int Pturísticos = 23;
+    int populacao = 1303403;
+    float area = 1064.91;
+    float PIB = 33.46;
+    int Pturisticos = 23;
+
+    printf("Desafio das Cartas!\n");
 
     printf("Carta 1\n");
     printf("Estado: %c\n", estado);
-    printf("Códico: %s\n", código);
+    printf("Códico: %s\n", codigo);
     printf("Cidade: %s\n", cidade);
-    printf("População: %d de Habitantes\n", população);
-    printf("Área: %.2f km²\n", área);
-    printf("PIB: %.2f de Reais\n");
-    printf("Pontos Turísticos: %d\n");
+    printf("População: %d de Habitantes\n", populacao);
+    printf("Área: %.2f km²\n", area);
+    printf("PIB: %.2f Bilhões de Reais\n", PIB);
+    printf("Pontos Turísticos: %d\n", Pturisticos);
     
-
-
-
-
+    return 0;
 
 }
